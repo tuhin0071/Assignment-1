@@ -46,6 +46,39 @@ padding: 15px 20px;
 border: none;
 } 
 
+
+/* button code hover */
+.button-7:hover{
+      background: #5fe6a7;
+      box-sizing: border-box;
+}
+
+.button-6:hover{
+      background: #5fe6a7;
+      box-sizing: border-box;
+}
+.button-5:hover{
+      background: #5fe6a7;
+      box-sizing: border-box;
+}
+
+.button-4:hover{
+      background: #5fe6a7;
+      box-sizing: border-box;
+}
+.button-3:hover{
+      background: #5fe6a7;
+      box-sizing: border-box;
+}
+.button-2:hover{
+      background: #5fe6a7;
+      box-sizing: border-box;
+}
+
+.button-1:hover{
+      background: #5fe6a7;
+      box-sizing: border-box;
+}
 /* header */
 .button-1{
       color: rgb(0, 106, 80);
@@ -57,6 +90,7 @@ border: 1px solid rgb(0, 106, 80);
 border-radius: 8px;
 padding: 11px 17px;
 position: static;
+transition: all .6s ease-in-out;
 }
 
 nav h4{
@@ -101,6 +135,7 @@ font-size: 18px;
 font-weight: 600;
 padding:20px 36px;
 margin-top: 24px;
+transition: all .6s ease-in-out;
 }
 
 .banner-action{
@@ -163,15 +198,18 @@ margin-top: 24px;
 .button-3{
       background-color: #5490F5;
       margin-top: 25px;
+      transition: all .6s ease-in-out;
 }
 
 .button-4{
       background-color:#09A15C;
       margin-top: 25px;
+      transition: all .6s ease-in-out;
 }
 .button-5{
       background-color: #FFC239;
       margin-top: 25px;
+      transition: all .6s ease-in-out;
 }
 
 .vision-row{
@@ -207,7 +245,7 @@ font-weight: 600;
 
 /* recent-development */
 .recent-text{
-      margin:10px -2% 0px 4% ;
+      margin:10px -2% 35px 3% ;
 }
 
 
@@ -226,6 +264,7 @@ font-weight: 600;
 padding: 15px 27px;
 border: none;
 margin-top: 25px;
+transition: all .6s ease-in-out;
 }
 
 .text-bd{
@@ -330,7 +369,14 @@ font-family: Fira Sans;
 font-size: 18px;
 font-weight: 600;
 padding: 20px 34px;
+transition: all .6s ease-in-out;
 
+}
+
+
+.button-7:hover{
+      background: #5fe6a7;
+      box-sizing: border-box;
 }
 
 .input-box{
@@ -351,8 +397,69 @@ padding: 20px 34px;
 
 .subscribe{
       width: 1280px;
-      height: 395px;
+      height: 310px;
+      margin-top: 80px;
+      background-color: #C6E4D6;
+      padding-top: 60px;
 }
 .subscribe-text{
       text-align: center;
+}
+
+.button-8{
+      box-sizing: border-box;
+      border:none;
+      
+      background: rgb(0, 106, 80);
+      
+      color: rgb(255, 255, 255);
+      font-family: Fira Sans;
+      font-size: 18px;
+      font-weight: 600;
+      padding: 20px 34px;
+       
+}
+
+.input-box-2 input{
+      height: 62px;
+      width: 650px;
+      margin: 0 0% 0 0%;
+      border: none;
+      margin-bottom: 30px;
+}
+
+.input-box-2{
+      width: 803px;
+      height: 61px;
+      display: flex;
+      justify-content: center;
+      margin: 28px 0% 0 18%;
+}
+
+.input-box-2 input::placeholder{
+      padding-left: 40px;
+}
+
+/* footer */
+.bd h4{
+      color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+
+}
+
+.icon{
+      display: flex;
+      gap: 20px;
+      
+}
+
+.fooder-foot{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;	
+      align-items: center;
+      gap: 50px;
+      height: 200px;
 }
