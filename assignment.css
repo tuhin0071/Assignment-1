@@ -48,6 +48,11 @@ border: none;
 
 
 /* button code hover */
+
+.button-8:hover{
+      background: #5fe6a7;
+      box-sizing: border-box;
+}
 .button-7:hover{
       background: #5fe6a7;
       box-sizing: border-box;
@@ -417,6 +422,7 @@ transition: all .6s ease-in-out;
       font-size: 18px;
       font-weight: 600;
       padding: 20px 34px;
+      transition: all .6s ease-in-out;
        
 }
 
@@ -463,3 +469,55 @@ font-weight: 700;
       gap: 50px;
       height: 200px;
 }
+
+
+/* table */
+table, th, td {
+      
+      border: 2px solid rgba(97, 140, 231, 0.699);
+background: (255, 255, 255, 0.589);
+
+    }
+
+    .table{
+      width: 1280px;
+      height: 409px;
+      background-color: #FFFFFF;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    table{
+      width: 1200px;
+      height: 300px;
+    }
+    
+    .table-heading{
+      display: flex;
+      justify-content: space-between;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background: rgb(198, 228, 214);
+    }
+    
+    table tr td select{
+      
+border: 1px solid rgb(47, 150, 235);
+border-radius: 4px;
+font-size: 20px;
+background: rgb(198, 228, 214);
+height: 44px;
+width: 155px;
+padding-left: 10px;
+padding-right: 5px;
+margin:0 0 0 40px;
+    }
+
+    table tr td {
+      margin: 0 0 0 0;
+padding-left: 10px;
+      
+    }
