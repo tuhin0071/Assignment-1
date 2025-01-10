@@ -9,9 +9,42 @@
 }
 /* sheared code */
 body{
-      margin: 0 9%;
+      width: 1300px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 40px auto;
+      background-color:
+      #0E0E0E26;
+      
+      
 }
 
+.primary-heading{
+      color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+margin-bottom: 20px;
+}
+
+.paragraph{
+      color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+}
+
+.primary-btn{
+      border-radius: 8px;
+      color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+padding: 15px 20px;
+border: none;
+} 
 
 /* header */
 .button-1{
@@ -37,8 +70,9 @@ position: static;
 nav{
       display: flex;
       justify-content: space-between;
+      align-items: center;
 
-      margin: 31px 4%; 
+      margin: 31px 0% 0 5%; 
 
 }
 
@@ -77,9 +111,248 @@ margin-top: 24px;
       justify-content: center;
       align-items: center;
       gap: 64px;
+      border-radius: 24px;
 
 }
 
 .banner-section{
       margin: 31px 4%;
+}
+
+
+/* main section */
+.vision-section{
+      margin: 31px 0% 31px 5%;
+
+}
+
+.vision-box-1{
+      width: 410px;
+      height: 325px;
+      box-sizing: border-box;
+border-radius: 16px;
+background: rgba(84, 144, 245, 0.2);
+padding: 32px;
+}
+.vision-box-2{
+      width: 410px;
+      height: 325px;
+      box-sizing: border-box;
+border-radius: 16px;
+background: rgb(198, 228, 214);
+padding: 32px;
+}
+.vision-box-3{
+      width: 410px;
+      height: 325px;
+      box-sizing: border-box;
+border-radius: 16px;
+background: rgb(247, 235, 207);
+padding: 32px;
+}
+
+.box-text{
+      color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+margin-bottom: 10px;
+margin-top: 24px;
+}
+
+.button-3{
+      background-color: #5490F5;
+      margin-top: 25px;
+}
+
+.button-4{
+      background-color:#09A15C;
+      margin-top: 25px;
+}
+.button-5{
+      background-color: #FFC239;
+      margin-top: 25px;
+}
+
+.vision-row{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 25px;
+      margin: 0 -3% 0 3%;
+}
+
+/* coition-section */
+
+.coation-text h5{
+      color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 25px;
+font-weight: 600;
+}
+
+.coation-text{
+      padding: 48px 48px 24px 48px;
+}
+.coation-section{
+      background-image: url('assets/png-transparent-double-quotes-quotation-marks-in-english-punctuation-double-quotes-monochrome-silhouette-internet.png');
+      background-repeat: no-repeat;
+      width: 1280px;
+      height: 280px;
+      background-size: 40px 40px;
+      z-index: -1;
+      margin: 32px -2% -50px 4%;
+      
+}
+
+/* recent-development */
+.recent-text{
+      margin:10px -2% 0px 4% ;
+}
+
+
+.recent-box{
+      width: 1280px;
+      height: 402px;
+}
+
+.button-6{
+      border-radius: 8px;
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+padding: 15px 27px;
+border: none;
+margin-top: 25px;
+}
+
+.text-bd{
+      color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+      margin-bottom: 15px;
+}
+
+.resent-box{
+      width: 1280px;
+      height: 412px;
+      display: flex;
+      gap: 32px;
+      justify-content: center;
+      align-items: center;
+      background-color:
+      #FFFFFF;
+      margin-top: 15px;
+}
+.pain{
+      margin: 10px 0 10px 0;
+}
+
+.image-1{
+border-radius: 24px;
+}
+
+
+/* donate section */
+
+.donate-section{
+      width: 1280px;
+      height: 464px;
+      margin-top: 50px;
+}
+
+.donate-text{
+      text-align: center;
+      
+}
+
+.money-box{
+      box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(250, 248, 248);
+height: 128px;
+width: 230px;
+display: flex;
+justify-content: center;
+      align-items: center;
+      transition: all .6s ease;
+      
+
+}
+.money-box h2{
+      color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+
+
+}
+.taka{
+      display: flex;
+      gap: 25px;
+      align-items: center;
+      justify-content: center;
+      margin-top: 38px;
+}
+
+.money-box:hover{
+      background: #5fe6a7;
+      box-sizing: border-box;
+border: 1px solid #5fe6a7;
+border-radius: 16px;
+height: 128px;
+width: 230px;
+display: flex;
+justify-content: center;
+      align-items: center;
+}
+
+.input-box input{
+      height: 64px;
+      width: 950px;
+      margin: 0 0% 0 0%;
+      border: none;
+      margin-bottom: 30px;
+}
+
+.button-7{
+      box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.1);
+border-radius: 8px;
+background: rgb(0, 106, 80);
+
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+padding: 20px 34px;
+
+}
+
+.input-box{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      column-gap: 35px;
+      margin-top: -165px;
+}
+
+.input-box input::placeholder{
+      padding: 10px 420px ;
+}
+
+/* subscribe section */
+
+
+.subscribe{
+      width: 1280px;
+      height: 395px;
+}
+.subscribe-text{
+      text-align: center;
 }
