@@ -93,7 +93,7 @@ font-weight: 600;
 box-sizing: border-box;
 border: 1px solid rgb(0, 106, 80);
 border-radius: 8px;
-padding: 11px 17px;
+padding: 11px 20px;
 position: static;
 transition: all .6s ease-in-out;
 }
@@ -208,7 +208,7 @@ margin-top: 24px;
 
 .button-4{
       background-color:#09A15C;
-      margin-top: 25px;
+      margin-top: 44px;
       transition: all .6s ease-in-out;
 }
 .button-5{
@@ -537,12 +537,21 @@ padding-left: 10px;
 
 
     /* pillar-section */
-    .pillar-box1{
-      background-color: #FFFFFF;
+    .pillars-box1{
+      background-color:#f8f3f3;
+      width: 300px;
+      height: 244px;
+      padding: 20px 0px 0 15px;
     }
 
     .pillars-section{
          display: flex;
          justify-content: center;
          align-items: center;
+         gap: 24px;
+         margin-left: 50px;
+    }
+
+    .pillars-heading{
+      margin-left: 60px;
     }
