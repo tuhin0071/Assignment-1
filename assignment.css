@@ -423,6 +423,15 @@ transition: all .6s ease-in-out;
       background-color: #C6E4D6;
       padding-top: 60px;
 }
+
+
+.fa-envelope{
+      margin: 23px 730px 0 0px;
+      font-size: 20px;
+      position: absolute;
+      z-index: 2;
+      opacity: .5;
+}
 .subscribe-text{
       text-align: center;
 }
