@@ -241,19 +241,28 @@ margin: 10px 0;
 
 }
 .coation-section img{
-height: 40px;
-width: 40px;
+height: 60px;
+width: 60px;
 z-index: -2;
 opacity: .3;
 position: absolute;
-margin: 45px 0 0 46px;
+margin: 30px 0 0 48px;
       
+}
+
+.fa-envelope{
+      margin: 22px 760px 0px 30px;
+      font-size: 20px;
+      position: absolute;
+      z-index: 2;
+      opacity: .5;
 }
 
 .coation-section{
       margin-top: 20px;
       margin-bottom: 20px;
 }
+
 
 /* recent-development */
 .recent-text{
