@@ -377,6 +377,9 @@ justify-content: center;
       margin: 0 0% 0 0%;
       border: none;
       margin-bottom: 30px;
+      padding: 5px 0px 0 400px;
+
+
 }
 
 .button-7{
@@ -410,7 +413,7 @@ transition: all .6s ease-in-out;
 }
 
 .input-box input::placeholder{
-      padding: 10px 420px ;
+      padding: 10px -80px  10px 0px;
 }
 
 /* subscribe section */
