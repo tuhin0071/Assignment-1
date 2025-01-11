@@ -438,7 +438,8 @@ transition: all .6s ease-in-out;
       width: 650px;
       margin: 0 0% 0 0%;
       border: none;
-      margin-bottom: 30px;
+      margin-bottom:30px;
+      padding: 12px 20px;
 }
 
 .input-box-2{
